@@ -66,4 +66,95 @@ export const RENTAL_MOCKS: Rental[] = [
     },
     image: 'https://images.unsplash.com/photo-1554995207-c18c203602cb',
   },
+  {
+  id: '13',
+  name: 'Mountain Cabin Retreat',
+  description:
+    'Escape to a rustic yet modern cabin in the Carpathian Mountains. Surrounded by forest, this retreat offers peace, hiking trails, and a wood-burning fireplace. Features full kitchen, balcony with mountain view, smart TV, and heating. Ideal for remote workers and nature lovers.',
+  price: 1800,
+  location: 'Yaremche, Ivano-Frankivsk Oblast',
+  geometry: {
+    type: 'Point',
+    coordinates: [24.6886, 48.4448],
+  },
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511',
+},
+{
+  id: '14',
+  name: 'Industrial-Style Loft',
+  description:
+    'Modern loft with raw concrete accents, steel staircase, and tall factory windows. Includes large workspace, open kitchen, rainfall shower, and fast internet. Located near coworking hubs and nightlife venues — perfect for digital nomads.',
+  price: 2300,
+  location: 'Kyiv, Podil District',
+  geometry: {
+    type: 'Point',
+    coordinates: [30.5169, 50.4666],
+  },
+  image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227',
+},
+{
+  id: '15',
+  name: 'Riverside Tiny House',
+  description:
+    'Compact, eco-friendly tiny house located near the Dnipro River. Includes mezzanine bed, modular kitchen, composting toilet, solar panels, and hammock deck. Popular among weekend travelers and minimalists.',
+  price: 850,
+  location: 'Cherkasy, riverbank district',
+  geometry: {
+    type: 'Point',
+    coordinates: [32.0595, 49.4285],
+  },
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+},
+{
+  id: '16',
+  name: 'Classic Townhouse Suite',
+  description:
+    'Refurbished townhouse apartment in the heart of a quiet European-style boulevard. Features large windows, acoustic insulation, king-size bed, bathtub, and vintage décor. Grocery store and public transport within 3 minutes.',
+  price: 1600,
+  location: 'Chernivtsi, Holovna Street, 22',
+  geometry: {
+    type: 'Point',
+    coordinates: [25.9388, 48.2915],
+  },
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+},
+{
+  id: '17',
+  name: 'Modern High-Rise Apartment',
+  description:
+    'Stylish apartment on the 14th floor with panoramic city views. Equipped with air conditioning, dishwasher, walk-in closet, and balcony. Secure building with concierge, gym, and underground parking.',
+  price: 2700,
+  location: 'Dnipro, Shevchenko Ave, 45',
+  geometry: {
+    type: 'Point',
+    coordinates: [35.0456, 48.4664],
+  },
+  image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914',
+},
+{
+  id: '18',
+  name: 'Cozy Room in Family House',
+  description:
+    'A bright and affordable private room in a family house with shared kitchen and bathroom. Includes desk, wardrobe, and free tea/coffee. Located in a quiet suburb with direct bus to the city center.',
+  price: 500,
+  location: 'Sumy, Zarechenskyi District',
+  geometry: {
+    type: 'Point',
+    coordinates: [34.8021, 50.9185],
+  },
+  image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914',
+},
+{
+  id: '19',
+  name: 'Minimal Scandinavian Flat',
+  description:
+    'Elegant and minimalistic flat designed in Scandinavian style. Bright walls, natural wood, open-plan layout, and smart home integration. Great for design lovers looking for a calm space to live and work.',
+  price: 1900,
+  location: 'Khmelnytskyi, Proskurivska Street, 13',
+  geometry: {
+    type: 'Point',
+    coordinates: [26.9997, 49.4216],
+  },
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511',
+  },
 ];

@@ -5,6 +5,7 @@ import { RENTAL_MOCKS } from '@mocks/rentals';
 export const useRentalStore = defineStore('rental', {
   state: () => ({
     rentals: RENTAL_MOCKS,
+    filteredRentals: RENTAL_MOCKS,
   }),
   getters: {
     getById: (state) => (id: string) =>
@@ -14,5 +15,14 @@ export const useRentalStore = defineStore('rental', {
     setRentals(rentals: Rental[]) {
       this.rentals = rentals;
     },
+    setFilteredRentals(searchValue: string) {
+      this.filteredRentals = this.rentals.filter((rental) => {
+        const location = rental.location.toLowerCase();
+        const name = rental.name.toLowerCase();
+        const search = searchValue.toLowerCase().trim();
+
+        return location.includes(search) || name.includes(search);
+      });
+    }
   },
 });
