@@ -10,4 +10,21 @@
   font-weight: normal;
 }
 
-body {}
+/* TODO: add root variables */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+}
