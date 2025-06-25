@@ -32,7 +32,7 @@
     <button 
       v-for="page in totalPages" 
       :key="page" 
-      :class="{ '!bg-blue-500': currentPage === page }" class="text-white px-4 py-2 rounded bg-slate-500 w-10 h-10"
+      :class="{ 'bg-blue-500': currentPage === page, 'bg-slate-500': currentPage !== page }" class="text-white px-4 py-2 rounded hover:bg-blue-500 w-10 h-10 transition-colors"
       @click="currentPage = page" 
     >
       {{ page }}

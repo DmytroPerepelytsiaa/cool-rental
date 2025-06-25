@@ -12,7 +12,7 @@ export const RENTAL_MOCKS: Rental[] = [
       type: 'Point',
       coordinates: [30.5234, 50.4501],
     },
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+    image: 'https://static.tacdn.com/img2/branding/homepage/home-tab2-hero-800x520-prog.jpg',
   },
   {
     id: '2',
@@ -25,7 +25,7 @@ export const RENTAL_MOCKS: Rental[] = [
       type: 'Point',
       coordinates: [24.0316, 49.8397],
     },
-    image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
+    image: 'https://hips.hearstapps.com/hmg-prod/images/hawaii-vrbo-vacation-rental-1653063882.png',
   },
   {
     id: '3',
@@ -38,7 +38,7 @@ export const RENTAL_MOCKS: Rental[] = [
       type: 'Point',
       coordinates: [30.7326, 46.4825],
     },
-    image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914',
+    image: 'https://www.orlandovacationhomes.com/wp-content/uploads/2019/10/712-Desert-Mountain-Ct-Reunion-FL-34747-06-Pool.jpg',
   },
   {
     id: '4',
@@ -51,7 +51,7 @@ export const RENTAL_MOCKS: Rental[] = [
       type: 'Point',
       coordinates: [30.9521, 46.9667],
     },
-    image: 'https://images.unsplash.com/photo-1615874959474-d609969a20ed',
+    image: 'https://tropicalescapevacationhomes.com/wp-content/uploads/2024/02/pexels-thanhhoa-tran-1488327.jpg',
   },
   {
     id: '5',
@@ -64,7 +64,7 @@ export const RENTAL_MOCKS: Rental[] = [
       type: 'Point',
       coordinates: [24.3315, 49.2419],
     },
-    image: 'https://images.unsplash.com/photo-1554995207-c18c203602cb',
+    image: 'https://www.emeraldislerealty.com/wp-content/uploads/2024/08/emerald-of-the-isle-vacation-rental-share.jpg',
   },
   {
   id: '13',
@@ -77,7 +77,7 @@ export const RENTAL_MOCKS: Rental[] = [
     type: 'Point',
     coordinates: [24.6886, 48.4448],
   },
-  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511',
+  image: 'https://res.cloudinary.com/simpleview/image/upload/v1464281670/clients/outerbanks/Cottage_5_New_sky_layers_large_d6579fb4-8c84-4b95-92f9-ea8ba73e6d57.jpg',
 },
 {
   id: '14',
@@ -90,7 +90,7 @@ export const RENTAL_MOCKS: Rental[] = [
     type: 'Point',
     coordinates: [30.5169, 50.4666],
   },
-  image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227',
+  image: 'https://modernbeachvacationrentals.com/media/6-bedroom-beachfront-30A-vacation-rental-00006.jpg',
 },
 {
   id: '15',
@@ -103,7 +103,7 @@ export const RENTAL_MOCKS: Rental[] = [
     type: 'Point',
     coordinates: [32.0595, 49.4285],
   },
-  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+  image: 'https://onceuponabeachami.icnd-cdn.com/userfiles/once-upon-a-beach-ami-C9446281-3261-4E5D-B712D992ED1593CC.jpg',
 },
 {
   id: '16',
@@ -116,7 +116,7 @@ export const RENTAL_MOCKS: Rental[] = [
     type: 'Point',
     coordinates: [25.9388, 48.2915],
   },
-  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+  image: 'https://www.fortunebuilders.com/wp-content/uploads/2021/02/investing-in-vacation-rental-property.jpeg',
 },
 {
   id: '17',
@@ -129,7 +129,7 @@ export const RENTAL_MOCKS: Rental[] = [
     type: 'Point',
     coordinates: [35.0456, 48.4664],
   },
-  image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914',
+  image: 'https://www.seasidevacationhomes.com/images/layout/welcome.jpg',
 },
 {
   id: '18',
@@ -142,7 +142,7 @@ export const RENTAL_MOCKS: Rental[] = [
     type: 'Point',
     coordinates: [34.8021, 50.9185],
   },
-  image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914',
+  image: 'https://www.specialplacesofcostarica.com/wp-content/uploads/2023/06/costa-rica-vacation-rentals-encantada-610x530-1.jpg',
 },
 {
   id: '19',
