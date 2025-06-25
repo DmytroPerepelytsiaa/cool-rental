@@ -49,7 +49,7 @@ export const RENTAL_MOCKS: Rental[] = [
     location: 'Odesa, Frantsuzkyi Blvd, 60',
     geometry: {
       type: 'Point',
-      coordinates: [30.7521, 46.4667],
+      coordinates: [30.9521, 46.9667],
     },
     image: 'https://images.unsplash.com/photo-1615874959474-d609969a20ed',
   },
@@ -62,7 +62,7 @@ export const RENTAL_MOCKS: Rental[] = [
     location: 'Lviv, Rynok Square, 1',
     geometry: {
       type: 'Point',
-      coordinates: [24.0315, 49.8419],
+      coordinates: [24.3315, 49.2419],
     },
     image: 'https://images.unsplash.com/photo-1554995207-c18c203602cb',
   },

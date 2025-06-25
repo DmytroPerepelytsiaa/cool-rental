@@ -17,14 +17,12 @@
 </script>
 
 <template>
-  <main class="max-w-[900px] pt-20 p-5 min-h-screen">
-    <input v-model="searchFilter" type="text" placeholder="Search rentals..." class="w-full mb-5 p-2 border rounded" />
-    <ul class="flex flex-col gap-5 mx-auto">
-      <li v-for="rental in filteredRentals" :key="rental.id">
-        <router-link :to="`/rental/${rental.id}`">
-          <RentalCard :rental="rental" />
-        </router-link>
-      </li>
-    </ul>
-  </main>
+  <input v-model="searchFilter" type="text" placeholder="Search rentals..." class="w-full mb-5 p-2 border rounded" />
+  <ul class="flex flex-col gap-5 mx-auto">
+    <li v-for="rental in filteredRentals" :key="rental.id">
+      <router-link :to="`/rental/${rental.id}`">
+        <RentalCard :rental="rental" />
+      </router-link>
+    </li>
+  </ul>
 </template>

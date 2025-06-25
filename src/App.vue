@@ -12,7 +12,9 @@ import { RouterView } from 'vue-router';
     </nav>
   </header>
 
-  <RouterView />
+  <main class="max-w-[900px] pt-20 p-5 min-h-screen mx-auto">
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
