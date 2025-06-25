@@ -1,4 +1,4 @@
-import { Point } from 'geojson';
+import type { Point } from 'geojson';
 
 export interface Rental {
   id: string;

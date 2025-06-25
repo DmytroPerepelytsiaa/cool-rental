@@ -12,7 +12,12 @@ const router = createRouter({
       path: '/map',
       name: 'map',
       component: () => import('@views/MapView.vue'),
-    }
+    },
+    {
+      path: '/rental/:id',
+      name: 'rental',
+      component: () => import('@views/RentalView.vue'),
+    },
   ],
 });
 

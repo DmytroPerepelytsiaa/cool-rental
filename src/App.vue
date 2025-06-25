@@ -3,7 +3,7 @@ import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <header class="text-white flex justify-between items-center px-10 bg-slate-800 h-16 fixed w-full">
+  <header class="text-white z-10 flex justify-between items-center px-10 bg-slate-800 h-16 fixed w-full">
     <!-- TODO: add logo -->
     <h1>CoolRental</h1>
     <nav class="flex gap-8">

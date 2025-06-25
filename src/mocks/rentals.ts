@@ -1,4 +1,6 @@
-export const RENTAL_MOCKS = [
+import type { Rental } from '@models/rental';
+
+export const RENTAL_MOCKS: Rental[] = [
   {
     id: '1',
     name: 'Modern apartment in the city center',
@@ -49,7 +51,7 @@ export const RENTAL_MOCKS = [
       type: 'Point',
       coordinates: [30.7521, 46.4667],
     },
-    image: 'https://images.unsplash.com/photo-1559622214-70a58e003e2e',
+    image: 'https://images.unsplash.com/photo-1615874959474-d609969a20ed',
   },
   {
     id: '5',
