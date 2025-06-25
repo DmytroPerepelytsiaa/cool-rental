@@ -1,11 +1,12 @@
 <script setup lang="ts">
   import { computed, ref } from 'vue';
-  import { RENTAL_MOCKS } from '@mocks/rentals';
   import RentalCard from '@components/RentalCard.vue';
+  import { useRentalStore } from '@stores/rental';
 
+  const rentalStore = useRentalStore();
   const searchFilter = ref('');
   const filteredRentals = computed(() => {
-    return RENTAL_MOCKS.filter(rental => {
+    return rentalStore.rentals.filter(rental => {
       const location = rental.location.toLowerCase();
       const name = rental.name.toLowerCase();
       const search = searchFilter.value.toLowerCase().trim();
