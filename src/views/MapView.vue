@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import maplibregl, { LngLatBounds, Marker } from 'maplibre-gl';
-import 'maplibre-gl/dist/maplibre-gl.css';
 import { onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import { useRentalStore } from '@stores/rental';
@@ -25,9 +24,7 @@ onMounted(() => {
     });
   });
 
-  map.fitBounds(bounds, {
-    padding: { top: 50, bottom: 50, left: 50, right: 50 },
-  });
+  map.fitBounds(bounds, { padding: { top: 50, bottom: 50, left: 50, right: 50 }});
 });
 </script>
 

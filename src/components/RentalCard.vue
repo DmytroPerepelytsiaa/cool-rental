@@ -10,7 +10,6 @@ const props = defineProps<{
 
 <template>
   <div class="flex justify-between gap-8 border border-black rounded-lg h-64 p-5 pl-10 hover:scale-[1.01] transition-transform duration-500 cursor-pointer">
-    <!-- TODO: add truncate -->
     <div class="overflow-hidden">
       <h2 class="text-lg">{{ props.rental.name }}</h2>
       <p class="text-slate-700 font-medium text-xs">{{ props.rental.location }}</p>
