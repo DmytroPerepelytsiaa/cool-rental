@@ -18,6 +18,11 @@ const router = createRouter({
       name: 'rental',
       component: () => import('@views/RentalView.vue'),
     },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      redirect: '/',
+    },
   ],
 });
 

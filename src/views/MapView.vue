@@ -2,26 +2,30 @@
 import maplibregl, { LngLatBounds, Marker } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { onMounted } from 'vue';
+import { useRouter } from 'vue-router';
 import { useRentalStore } from '@stores/rental';
 
 const rentalStore = useRentalStore();
-const coordinates: LngLatBounds = new LngLatBounds();
+const router = useRouter();
+const bounds: LngLatBounds = new LngLatBounds();
 
 onMounted(() => {
   const map = new maplibregl.Map({
     container: 'map',
     style: 'https://demotiles.maplibre.org/style.json',
     center: [0, 0],
-    zoom: 3,
+    zoom: 1,
   });
 
   rentalStore.rentals.forEach(rental => {
     const [longitude, latitude] = rental.geometry.coordinates;
-    coordinates.extend({ lng: longitude, lat: latitude });
-    new Marker().setLngLat([longitude, latitude]).addTo(map);
+    bounds.extend({ lng: longitude, lat: latitude });
+    new Marker().setLngLat([longitude, latitude]).addTo(map).getElement().addEventListener('click', () => {
+      router.push({ name: 'rental', params: { id: rental.id }});
+    });
   });
 
-  map.fitBounds(coordinates, {
+  map.fitBounds(bounds, {
     padding: { top: 50, bottom: 50, left: 50, right: 50 },
   });
 });
