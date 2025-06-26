@@ -16,6 +16,6 @@ const props = defineProps<{
       <span class="font-medium text-[10px] mb-5 block">{{ props.rental.price }} USD month</span>
       <p class="text-sm">{{ props.rental.description }}</p>
     </div>
-    <img :src="props.rental.image" :alt="`Image of ${props.rental.name}`" class="w-[216px] h-[216px] object-cover rounded-md">
+    <img :src="props.rental.image" :alt="`Image of ${props.rental.name}`" class="hidden md:block w-[216px] h-[216px] object-cover rounded-md">
   </div>
 </template>
